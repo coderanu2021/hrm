@@ -32,14 +32,14 @@
 
       <!-- OVERVIEW -->
       <div class="nav-section-label">OVERVIEW</div>
-      <a href="#" class="nav-item active" data-page="dashboard">
+      <a href="{{route('admin.dashboard')}}" class="nav-item active" data-page="dashboard">
         <svg class="nav-icon" viewBox="0 0 24 24" fill="none"><rect x="3" y="3" width="7" height="7" rx="1" stroke="currentColor" stroke-width="1.8"/><rect x="14" y="3" width="7" height="7" rx="1" stroke="currentColor" stroke-width="1.8"/><rect x="3" y="14" width="7" height="7" rx="1" stroke="currentColor" stroke-width="1.8"/><rect x="14" y="14" width="7" height="7" rx="1" stroke="currentColor" stroke-width="1.8"/></svg>
         Dashboard
       </a>
 
       <!-- EMPLOYEES -->
       <div class="nav-section-label">EMPLOYEES</div>
-      <a href="#" class="nav-item" data-page="directory">
+      <a href="{{ route('admin.Employee')}}" class="nav-item">
         <svg class="nav-icon" viewBox="0 0 24 24" fill="none"><circle cx="9" cy="7" r="3.5" stroke="currentColor" stroke-width="1.8"/><path d="M2 20c0-3.866 3.134-7 7-7s7 3.134 7 7" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><path d="M16 11c1.657 0 3 1.343 3 3v6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><path d="M19 14c1.657 0 3 .895 3 2v4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
         Directory
       </a>

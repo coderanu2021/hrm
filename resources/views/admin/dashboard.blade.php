@@ -98,45 +98,6 @@
           </div>
         </div>
 
-        <!-- QUICK ACCESS -->
-        <div class="card quick-access-card">
-          <div class="quick-access-title">Quick Access</div>
-          <div class="quick-links">
-            <a href="#" class="quick-link" data-page="directory">
-              <div class="quick-link-icon blue">
-                <svg viewBox="0 0 24 24" fill="none"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><circle cx="9" cy="7" r="4" stroke="currentColor" stroke-width="1.8"/></svg>
-              </div>
-              <div class="quick-link-text">
-                <div class="quick-link-name">Employee Directory</div>
-                <div class="quick-link-desc">Browse and manage all employees</div>
-              </div>
-              <svg class="quick-link-arrow" viewBox="0 0 24 24" fill="none"><path d="M9 18l6-6-6-6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
-            </a>
-
-            <a href="#" class="quick-link" data-page="attendance-log">
-              <div class="quick-link-icon green">
-                <svg viewBox="0 0 24 24" fill="none"><rect x="3" y="4" width="18" height="17" rx="2" stroke="currentColor" stroke-width="1.8"/><path d="M3 9h18M9 14l2 2 4-4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
-              </div>
-              <div class="quick-link-text">
-                <div class="quick-link-name">Attendance</div>
-                <div class="quick-link-desc">Track check-ins and daily presence</div>
-              </div>
-              <svg class="quick-link-arrow" viewBox="0 0 24 24" fill="none"><path d="M9 18l6-6-6-6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
-            </a>
-
-            <a href="#" class="quick-link" data-page="leave-management">
-              <div class="quick-link-icon purple">
-                <svg viewBox="0 0 24 24" fill="none"><path d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
-              </div>
-              <div class="quick-link-text">
-                <div class="quick-link-name">Leave Management</div>
-                <div class="quick-link-desc">Review and manage leave requests</div>
-              </div>
-              <svg class="quick-link-arrow" viewBox="0 0 24 24" fill="none"><path d="M9 18l6-6-6-6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
-            </a>
-          </div>
-        </div>
-
       </div>
 
       <!-- DOCUMENTS BOTTOM BAR -->

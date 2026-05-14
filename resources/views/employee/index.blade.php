@@ -13,13 +13,13 @@ Admin-Employee
           <h1 class="dir-title">Employee Directory</h1>
           <p class="dir-subtitle" id="dirSubtitle">1 employees · 1 active</p>
         </div>
-        <button class="btn-add-employee" id="btnAddEmployee">
+        <a  href="{{route('Employee.add')}}"class="btn-add-employee" id="btnAddEmployee">
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
             <line x1="12" y1="5" x2="12" y2="19" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
             <line x1="5" y1="12" x2="19" y2="12" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
           </svg>
           Add Employee
-        </button>
+        </a>
       </div>
 
       <!-- Search bar -->

@@ -13,3 +13,4 @@ Route::post('/login', [AuthController::class, 'login'])->name('login.post');
 //  dashboard route 
 Route::get('/admin/dashboard', [Dashboard::class, 'index'])->name('admin.dashboard');
 Route::get('/admin/employee', [EmployeeController::class, 'index'])->name('admin.Employee');
+Route::get('/admin/add', [EmployeeController::class, 'add'])->name('Employee.add');
